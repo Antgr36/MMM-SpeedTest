@@ -1,20 +1,15 @@
 {
   "name": "MMM-SpeedTest",
-  "version": "1.0.3",
+  "version": "0.0.0+EOL",
   "description": "SpeedTest Magic Mirror.",
   "main": "index.js",
   "scripts": {
-    "preinstall": "installer/preinstall.sh",
-    "postinstall": "installer/postinstall.sh"
+    "preinstall": "installer/preinstall.sh"
   },
   "keywords": [
     "internet",
     "speed"
   ],
   "author": "bugsounet",
-  "license": "MIT",
-  "dependencies": {
-    "magicmirror-rebuild": "^1.0.3",
-    "speedtest-net": "^2.2.0"
-  }
+  "license": "MIT"
 }
